@@ -13,7 +13,7 @@ function Mission(){
         
                 </div>
                 <p className="mb-3 me-md-5 pe-md-5">
-                    Endorsing and legitimizing the field of maternal mental health forensics by establishing chief foundations along with standards, benchmarks, protocols, and assessment strategies; continually updating information from evidence-based knowledge and research. We strive to enhance knowledge and resource exchange between countries and to work collaboratively with maternal/paternal mental health specialists, psychologists, psychiatrists, social workers, legal experts, and the community for the betterment of families, societies, and in generations to come.
+                    The CPPFI’s emphasis is  developing the field of reproductive mental health forensics by establishing chief foundations along with standards, benchmarks, protocols, and assessment strategies; continually updating information from evidence-based knowledge and research. We strive to enhance knowledge and resource exchange between countries and to work collaboratively with maternal/paternal mental health specialists, psychologists, psychiatrists, social workers, legal experts, and the global community for betterment of individuals, families, societies, and future generations to come.
                 </p>
         
         
