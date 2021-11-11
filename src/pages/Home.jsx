@@ -5,7 +5,7 @@ import ForceGraph3D from '3d-force-graph'
 
 import { UnrealBloomPass } from 'https://unpkg.com/three@0.123.0/examples/jsm/postprocessing/UnrealBloomPass.js';
 
-import Modal from '../components/modal';
+
 function generateLinks(nodes) {
     let links = [];
     nodes.forEach(node => {
@@ -84,9 +84,9 @@ class Home extends Component {
     
 
       componentDidMount() {
-        // appendScript("https://unpkg.com/3d-force-graph@1.66.6/dist/3d-force-graph.min.js");
+         appendScript("https://unpkg.com/3d-force-graph@1.66.6/dist/3d-force-graph.min.js");
         RenderTheStuff();
-        // console.log("mounted");
+        console.log("mounted");
         
       }
       componentDidUpdate() {
