@@ -3,9 +3,13 @@ node_modules
 dist
 dist-ssr
 *.local
-package-lock.json
 vscode
 .vscode
 /.vscode/
 /.vscode/*
+<<<<<<< HEAD
 launch.json
+=======
+launch.json
+.vscode/launch.json
+>>>>>>> main

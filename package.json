@@ -32,6 +32,9 @@
     "rollup": "^2.58.3",
     "source-map-js": "^0.6.2"
   },
+  "optionalDependencies": {
+    "fsevents": "*"
+ },
   "repository": {
     "type": "git",
     "url": "git@github.com:pixelbakery/mmhforensics.git"
