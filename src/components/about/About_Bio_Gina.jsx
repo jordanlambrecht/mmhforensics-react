@@ -4,7 +4,7 @@ function About_Bio_Gina() {
     <div className='row my-5'>
       <div className='col col-12 col-md-4  mb-5'>
         <img
-          src='src/assets/images/gina-headshot.jpg'
+          src='https://mmhforensics.s3.us-east-2.amazonaws.com/assets/images/gina-headshot.jpg'
           alt='Dr. Gina Wong'
           className='w-100'
         />

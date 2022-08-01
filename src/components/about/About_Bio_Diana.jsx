@@ -4,7 +4,7 @@ function About_Bio_Diana() {
     <div className='row my-5'>
       <div className='col col-12 col-md-4 mx-auto px-4 mb-5'>
         <img
-          src='./src/assets/images/diana-headshot.jpg'
+          src='https://mmhforensics.s3.us-east-2.amazonaws.com/assets/images/diana-headshot.jpg'
           alt='Dr. Diana Lynn Barnes'
           className='w-100'
         />
