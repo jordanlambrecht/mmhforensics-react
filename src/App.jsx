@@ -1,12 +1,12 @@
-import React from 'react';
-import {BrowserRouter, Switch, Route } from 'react-router-dom';
+import React from "react";
+import { BrowserRouter, Switch, Route, NavLink, Link } from "react-router-dom";
 
-import Home from './pages/Home';
-import Team from './pages/Team';
-import Manifesto from './pages/Manifesto';
-import Mission from './pages/Mission';
-import Nav from './components/nav';
-import Footer from './components/footer'
+import Home from "./pages/Home";
+import Team from "./pages/Team";
+import Manifesto from "./pages/Manifesto";
+import Mission from "./pages/Mission";
+import Nav from "./components/nav";
+import Footer from "./components/footer";
 
 const ErrorPage = () => {
   return (
@@ -16,24 +16,23 @@ const ErrorPage = () => {
   );
 };
 
-
 function App() {
   return (
     <BrowserRouter>
-    <div className=""> 
-      <Nav />
-      
-      <Switch>
-        <Route path="/" component={Home} exact />
-        <Route path="/team" component={Team} exact />
-        <Route path="/manifesto" component={Manifesto} exact />
-        <Route path="/mission" component={Mission} exact />
-        <Route component={ErrorPage} />   
-      </Switch>
-      <Footer />
-    </div>
+      <div className=''>
+        <Nav />
+
+        <Switch>
+          <Route path='/' component={Home} exact />
+          <Route path='/team' component={Team} exact />
+          <Route path='/manifesto' component={Manifesto} exact />
+          <Route path='/mission' component={Mission} exact />
+          <Route component={ErrorPage} />
+        </Switch>
+        <Footer />
+      </div>
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;
